@@ -8,19 +8,19 @@
     </head>
     <body>
         <div class="container-info">
-            <div class="content-info">
+            <div class="content-base content-info">
                 This page is designed to test the unicode font rendering, including
                 <b>Latin</b>, <b>Cyrillic</b> and <b>CJK</b> fonts with <i>sans-serif</i>, <i>serif</i>
                 and <i>system-ui</i> families.
             </div>
 
-            <div class="content-info">
+            <div class="content-base content-info">
                 @maximilionus, BSD 2-Clause License, 2024
             </div>
         </div>
 
         <div class="container-samples">
-            <div class="content-light font-size-normal" id="content-source">
+            <div class="content-base content-light font-size-normal" id="content-source">
                 <div class="font-sans-serif">
                     <h3>sans-serif:</h3>
                     <b>English:</b> Hello, World! <br />
@@ -49,10 +49,17 @@
                     <b>Arabic:</b> مرحبا، يا عالم! <br />
                 </div>
             </div>
-            <div class="content-light font-size-small"></div>
+            <div class="content-base content-light font-size-small"></div>
+        </div>
 
-            <div class="content-dark font-size-normal"></div>
-            <div class="content-dark font-size-small"></div>
+        <div class="container-samples">
+            <div class="content-base content-dark font-size-normal"></div>
+            <div class="content-base content-dark font-size-small"></div>
+        </div>
+
+        <div class="container-samples">
+            <div class="content-base content-low-contrast font-size-normal"></div>
+            <div class="content-base content-low-contrast font-size-small"></div>
         </div>
 
         <script src="scripts/generate_content.js"></script>
