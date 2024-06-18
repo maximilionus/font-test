@@ -1,6 +1,6 @@
-var sourceDiv = document.getElementById('content-source');
+var sourceContent = document.getElementById('content-source').innerHTML;
 var targetDivs = document.querySelectorAll('.content-light, .content-dark');
 
-targetDivs.forEach(function(div) {
-     div.innerHTML = sourceDiv.innerHTML;
+targetDivs.forEach((div) => {
+    div.innerHTML = sourceContent;
 });
