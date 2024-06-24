@@ -2,6 +2,7 @@
     --color: #f9e5ff;
     --color-bg: #f9e5ff;
     --color-bg-dark: #11001a;
+    --color-button:#3f294b;
     background: var(--color-bg);
     font-family: sans-serif, serif;
 }
@@ -9,6 +10,10 @@
 hr {
     border-top: 4px solid;
     border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container-info {
