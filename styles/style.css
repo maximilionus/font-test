@@ -26,6 +26,7 @@ a {
 
 .container-samples {
     display: flex;
+    opacity: 0;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;

@@ -19,9 +19,13 @@ document.querySelectorAll(
 
 // Duplicate the original container to different styles
 var sourceContent = document.getElementById('content-source').innerHTML;
-
 document.querySelectorAll(
     '.content-light, .content-dark, .content-low-contrast'
 ).forEach((div) => {
     div.innerHTML = sourceContent;
+});
+
+// Show all samples when everything is ready
+document.querySelectorAll('.container-samples').forEach((element) => {
+    element.style.opacity = 1;
 });
