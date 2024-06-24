@@ -1,7 +1,14 @@
 :root {
-    background: #f9e5ff;
-    color: #f9e5ff;
+    --color: #f9e5ff;
+    --color-bg: #f9e5ff;
+    --color-bg-dark: #11001a;
+    background: var(--color-bg);
     font-family: sans-serif, serif;
+}
+
+hr {
+    border-top: 4px solid;
+    border-radius: 2px;
 }
 
 .container-info {
@@ -26,7 +33,8 @@
 }
 
 .content-info {
-    background: #11001a;
+    color: var(--color);
+    background: var(--color-bg-dark);
     border-radius: 15px;
 }
 
@@ -41,7 +49,7 @@
 }
 
 .content-low-contrast {
-    background: #11001a;
+    background: var(--color-bg-dark);
     color: #2a0040;
 }
 
