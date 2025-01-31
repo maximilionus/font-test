@@ -26,11 +26,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     font-family: sans-serif, serif;
 }
 
-hr {
-    border-top: 4px solid;
-    border-radius: 2px;
-}
-
 a {
     text-decoration: none;
 }
@@ -65,18 +60,33 @@ a {
 }
 
 .content-light {
-    background: white;
     color: black;
+    background: white;
+}
+
+.content-light .content-info {
+    color: white;
+    background: black;
 }
 
 .content-dark {
-    background: black;
     color: white;
+    background: black;
+}
+
+.content-dark .content-info {
+    color: black;
+    background: white;
 }
 
 .content-low-contrast {
-    background: var(--color-bg-dark);
-    color: #2a0040;
+    color: #a0ff93;
+    background:#d0ffc9;
+}
+
+.content-low-contrast .content-info {
+    color: #206815;
+    background: #a0ff93;
 }
 
 .font-sans-serif {
