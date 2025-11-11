@@ -21,7 +21,7 @@ const sourceText = document.getElementById('text-source').innerHTML
 const fontSizes = [6, 7, 8, 10, 12, 14, 18, 24];
 
 document.querySelectorAll(
-    '.font-sans-serif, .font-serif, .font-system-ui'
+    '.font-sans-serif, .font-serif, .font-monospace'
 ).forEach(element => {
     // Duplicate text typeface
     element.innerHTML = sourceText;
